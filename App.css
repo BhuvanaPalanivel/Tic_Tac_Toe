@@ -1,0 +1,57 @@
+/* App.css */
+
+/* Styling for the game board container */
+.broad {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styling for individual rows in the game board */
+.broad-row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the individual squares on the game board */
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 36px;
+  font-weight: bold;
+  border: 2px solid #333;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+/* Styling for the status message */
+.status {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: blue;
+}
+
+/* Styling for the restart button */
+.restart {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styling for the winning squares */
+.square.winner {
+  background-color: #66ff66; /* Green for winning squares */
+}
+
+/* Hover effect on squares */
+.square:hover {
+  background-color: pink;
+}
